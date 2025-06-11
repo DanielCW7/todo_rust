@@ -27,7 +27,7 @@ impl TodoApp {
         if let Some(task) = self.tasks.get_mut(index) {
             task.done = true;
         } else {
-            println!("No task found at index {}", index + 1);
+            println!("No task found at this index {}", index + 1);
         }
     }
 
